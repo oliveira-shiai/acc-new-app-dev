@@ -18,10 +18,10 @@ app:
       #user: user1
       #password: openshift
     gitops:
-      url: http://gitea.gitea.svc:3000/user/my-app-gitops
+      url: https://github.com/oliveira-shiai/quarkus-super-heroes
       revision: main
-      user: user1
-      password: openshift
+      #user: user1
+      #password: openshift
       path: "."
 
 routeSubdomain: ""
