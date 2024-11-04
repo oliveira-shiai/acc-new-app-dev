@@ -9,19 +9,19 @@ namespacePermissions:
   role: edit
 
 app:
-  name: my-app
-  namespace: demo
+  name: quarkus-super-heroes
+  namespace: amqbroker
   repo:
     source:
-      url: http://gitea.gitea.svc:3000/user/my-app
+      url: https://gitea.apps.cluster-vgjv5.vgjv5.sandbox2416.opentlc.com/user1/quarkus-super-heroes-deploy.git
       revision: main
-      user: user
-      password: password
-    gitops:
-      url: http://gitea.gitea.svc:3000/user/my-app-gitops
-      revision: main
-      user: user
-      password: password
-      path: "."
+      user: user1
+      password: openshift
+   # gitops:
+   #   url: http://gitea.gitea.svc:3000/user/my-app-gitops
+   #   revision: main
+   #   user: user1
+   #   password: openshift
+    #  path: "."
 
 routeSubdomain: ""
