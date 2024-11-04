@@ -5,7 +5,7 @@
 tektonNamespace: tekton
 
 namespacePermissions:
-  user: user
+  user: pipeline
   role: edit
 
 app:
