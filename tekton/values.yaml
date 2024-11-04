@@ -10,13 +10,13 @@ namespacePermissions:
 
 app:
   name: quarkus-super-heroes
-  namespace: amqbroker
+  namespace: kafka
   repo:
     source:
-      url: https://gitea.apps.cluster-vgjv5.vgjv5.sandbox2416.opentlc.com/user1/quarkus-super-heroes-deploy.git
+      url: https://github.com/oliveira-shiai/quarkus-super-heroes-deploy.git
       revision: main
-      user: user1
-      password: openshift
+      #user: user1
+      #password: openshift
     gitops:
       url: http://gitea.gitea.svc:3000/user/my-app-gitops
       revision: main
