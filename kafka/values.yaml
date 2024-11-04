@@ -3,5 +3,5 @@
 # Declare variables to be passed into your templates.
 
 kafkaNamespace: kafka
-kafkaName: my-kafka
-kafkaTopic: my-topic
+kafkaName: fights-kafka
+kafkaTopic: fights-kafka
