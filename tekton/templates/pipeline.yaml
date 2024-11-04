@@ -70,7 +70,7 @@ spec:
     - name: MAVEN_IMAGE
       value: registry.access.redhat.com/ubi9/openjdk-17:1.17
     - name: CONTEXT_DIR
-      value: $(workspaces.app-source.path)/$(params.SOURCE_GIT_CONTEXT_DIR)
+      value: $(params.SOURCE_GIT_CONTEXT_DIR)
     - name: GOALS
       value:
       - clean
