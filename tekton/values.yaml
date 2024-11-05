@@ -13,7 +13,7 @@ app:
   namespace: kafka
   repo:
     source:
-      url: https://github.com/oliveira-shiai/quarkus-super-heroes
+      url: https://github.com/oliveira-shiai/quarkus-super-heroes.git
       revision: main
       user: oliveira.shiai@yahoo.com.br
       password: Karate@001
