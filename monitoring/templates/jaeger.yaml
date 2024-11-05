@@ -12,7 +12,7 @@ metadata:
     # system: quarkus-super-heroes
     system: jaeger
 spec:
-  strategy: allinOne
+  strategy: allinone
   storage:
     type: memory
   labels:
