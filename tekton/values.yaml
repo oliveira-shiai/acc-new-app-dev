@@ -19,7 +19,7 @@ app:
       password: Karate@001
     gitops:
       url: https://github.com/oliveira-shiai/quarkus-super-heroes-deploy
-      revision: main
+      revision: rhbq-3.2
       user: oliveira.shiai@yahoo.com.br
       password: Karate@001
       path: "kustomize"
