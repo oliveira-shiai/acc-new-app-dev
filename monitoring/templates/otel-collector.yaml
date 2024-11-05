@@ -17,16 +17,16 @@ metadata:
 spec:
   config: |
     receivers:
-      otlp:
+      otlp: 
         protocols:
-          grpc:
+          grpc: 
     exporters:
       otlp/jaeger:
         endpoint: jaeger-collector-headless.{{ .Values.monitoringNamespace }}.svc:4317
         tls:
           insecure: true
     processors:
-      batch:
+      batch: 
     extensions:
       health_check:
     service:
