@@ -22,6 +22,6 @@ app:
       revision: main
       user: oliveira.shiai@yahoo.com.br
       password: Karate@001
-#      path: "."
+      path: "."
 
 routeSubdomain: ""
