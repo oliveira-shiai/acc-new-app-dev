@@ -17,9 +17,9 @@ app:
       revision: main
       #user: user1
       #password: openshift
-#    gitops:
-#      url: https://github.com/oliveira-shiai/quarkus-super-heroes
-#      revision: main
+    gitops:
+      url: https://github.com/oliveira-shiai/quarkus-super-heroes
+      revision: main
       #user: user1
       #password: openshift
 #      path: "."
