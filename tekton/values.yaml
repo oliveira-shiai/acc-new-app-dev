@@ -15,13 +15,13 @@ app:
     source:
       url: https://github.com/oliveira-shiai/quarkus-super-heroes
       revision: main
-      #user: user1
-      #password: openshift
+      user: oliveira.shiai@yahoo.com.br
+      password: Karate@001
     gitops:
       url: https://github.com/oliveira-shiai/quarkus-super-heroes-deploy
       revision: main
-      #user: user1
-      #password: openshift
+      user: oliveira.shiai@yahoo.com.br
+      password: Karate@001
       path: "."
 
 routeSubdomain: ""
